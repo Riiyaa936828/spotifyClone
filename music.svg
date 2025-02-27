@@ -1,0 +1,24 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="50"
+    height="50"
+    viewBox="0 0 24 24"
+    fill="none"
+>
+    <rect width="24" height="24" fill="#e0e0e0" rx="4" /> <!-- Square Background -->
+    <image 
+        href="" 
+        x="2" 
+        y="2" 
+        width="20" 
+        height="20" 
+        clip-path="url(#clip)" 
+        />
+    <defs>
+        <clipPath id="clip">
+            <rect width="20" height="20" rx="4" /> <!-- Clip path for rounding -->
+        </clipPath>
+    </defs>
+    <path d="M9 15V9l6-1v6" fill="none" stroke="black" />
+    <circle cx="12" cy="15" r="1" fill="black" />
+</svg>
